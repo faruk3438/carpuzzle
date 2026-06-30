@@ -1,0 +1,75 @@
+[
+  {
+    "id": "ch2_l1",
+    "chapter": 2,
+    "level": 1,
+    "name": "Blokaj Zinciri",
+    "difficulty": "medium",
+    "grid": {
+      "rows": 6,
+      "cols": 6,
+      "walls": [],
+      "exits": []
+    },
+    "cars": [
+      {
+        "id": "c1",
+        "r": 2,
+        "c": 0,
+        "dir": "right",
+        "size": 1,
+        "type": "standard"
+      },
+      {
+        "id": "c2",
+        "r": 2,
+        "c": 2,
+        "dir": "up",
+        "size": 1,
+        "type": "standard"
+      },
+      {
+        "id": "c3",
+        "r": 0,
+        "c": 2,
+        "dir": "right",
+        "size": 1,
+        "type": "standard"
+      },
+      {
+        "id": "c4",
+        "r": 4,
+        "c": 3,
+        "dir": "down",
+        "size": 1,
+        "type": "standard"
+      },
+      {
+        "id": "c5",
+        "r": 5,
+        "c": 3,
+        "dir": "left",
+        "size": 1,
+        "type": "standard"
+      },
+      {
+        "id": "c6",
+        "r": 0,
+        "c": 4,
+        "dir": "down",
+        "size": 1,
+        "type": "standard"
+      },
+      {
+        "id": "c7",
+        "r": 4,
+        "c": 4,
+        "dir": "left",
+        "size": 1,
+        "type": "standard"
+      }
+    ],
+    "par_moves": 7,
+    "hint_solution": ["c5", "c4", "c7", "c6", "c3", "c2", "c1"]
+  }
+]

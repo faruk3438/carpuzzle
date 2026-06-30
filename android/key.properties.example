@@ -1,0 +1,5 @@
+# Copy this file to key.properties and replace each placeholder.
+storePassword=CHANGE_ME
+keyPassword=CHANGE_ME
+keyAlias=carpark-upload
+storeFile=upload-keystore.jks
